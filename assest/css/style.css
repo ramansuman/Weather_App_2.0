@@ -713,9 +713,6 @@ body.light .toggle:before{
   overflow-x: auto;
   margin-inline: -16px;
 }
-.slider-container::-webkit-scrollbar {
-  display: none;
-}
 .slider-list {
   display: flex;
   gap: 12px;
