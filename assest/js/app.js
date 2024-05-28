@@ -147,7 +147,7 @@ export const updateWeather = (lat,lon)=>{
             <div class="highlight-list">
                 <div class="card card-sm highlight-card one">
                 
-                    <h3 class="title-3 info-button">Air Quality Index<span class="info-text">AQI is an indicator developed by government agencies to communicate air pollution levels to the public.</span></h3>
+                    <h3 class="title-3 info-button">Air Quality Index &nbsp; &nbsp; &#9432;<span class="info-text">AQI is an indicator developed by government agencies to communicate air pollution levels to the public.</span></h3>
 
                     <div class="wrapper">
                         <img src="./assest/images/weather_icons/wind.svg" width=60px height =60px>
@@ -175,7 +175,7 @@ export const updateWeather = (lat,lon)=>{
                     </span> 
                 </div>
                 <div class="card card-sm highlight-card two">
-                <h3 class="title-3 info-button">Sunrise & Sunset<span class="info-text">Sunrise and sunset times are given in 12-hour format.</span></h3>
+                <h3 class="title-3 info-button">Sunrise & Sunset &nbsp; &nbsp; &#9432;<span class="info-text">Sunrise and sunset times are given in 12-hour format.</span></h3>
                     <div class="wrapper">
                         <div class="card-list">
                             <div class="card-item">
@@ -196,28 +196,28 @@ export const updateWeather = (lat,lon)=>{
                     </div>
                 </div>
                 <div class="card card-sm highlight-card">
-                <h3 class="title-3 info-button">Humidity<span class="info-text">Indicates the amount of moisture in the air, affecting comfort levels and precipitation chances.</span></h3>
+                <h3 class="title-3 info-button">Humidity &nbsp; &nbsp; &#9432;<span class="info-text">Indicates the amount of moisture in the air, affecting comfort levels and precipitation chances.</span></h3>
                     <div class="wrapper">
                     <img src="./assest/images/weather_icons/humidity.svg" width=60px height =60px>
                         <p class="title-1">${humidity}<sub>%</sub></p>
                     </div>
                 </div>
                 <div class="card card-sm highlight-card">
-                    <h3 class="title-3 info-button">Pressure<span class="info-text">It shows the weight of the air, affecting the weather and storms.</span></h3>
+                    <h3 class="title-3 info-button">Pressure &nbsp; &nbsp; &#9432;<span class="info-text">It shows the weight of the air, affecting the weather and storms.</span></h3>
                     <div class="wrapper">
                     <img src="./assest/images/weather_icons/pressure.svg" width=50px height =50px>
                         <p class="title-1">${pressure} <sub>hPa</sup></p>
                     </div>
                 </div>
                 <div class="card card-sm highlight-card">
-                <h3 class="title-3 info-button">Visibility<span class="info-text">It measures how far you can see clearly, impacting travel and outdoor activities.</span></h3>
+                <h3 class="title-3 info-button">Visibility &nbsp; &nbsp; &#9432;<span class="info-text">It measures how far you can see clearly, impacting travel and outdoor activities.</span></h3>
                     <div class="wrapper">
                         <span class="m-icon">visibility</span>
                         <p class="title-1">${visibility/1000} <sub>KM</sub></p>
                     </div>
                 </div>
                 <div class="card card-sm highlight-card">
-                <h3 class="title-3 info-button">Feels Like<span class="info-text">Real feel considering factors like humidity and wind for a more accurate perception of outdoor conditions.</span></h3>
+                <h3 class="title-3 info-button">Feels Like &nbsp; &nbsp; &#9432;<span class="info-text">Real feel considering factors like humidity and wind for a more accurate perception of outdoor conditions.</span></h3>
                     <div class="wrapper">
                     <img src="./assest/images/weather_icons/feels.svg" width=60px height =60px>
                         <p class="title-1">${parseInt(feels_like)}&deg;<sup>c</sup></p>
